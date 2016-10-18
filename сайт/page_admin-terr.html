@@ -1,0 +1,98 @@
+<!Doctype html>
+<html>
+ <meta charset="UTF-8">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ <script src="script.js"></script>
+<link rel = " stylesheet" href="style.css">
+</head>
+<body  background="image/fon1.JPG">
+<div class="row">
+<nav class="navbar">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+  <ul class="nav nav-tabs ">
+  <li class="active">
+    <a href="#">О Мордовии</a>
+  </li>
+  <li><a href="#">Глава</a></li>
+  <li><a href="#">Правительство</a></li>
+ <li class="nav navbar-right"><a href="page_lichn.html">Личный кабинет</a></li>
+</ul>
+</div>
+</div>
+<div class="row">
+  <div class="col-md-2">
+<ul class="nav nav-pills nav-stacked" nav-default>
+<li class ><a href ="new 1.html"> Общая информация</a></li>
+  <li class = "active"><a href ="page_admin-terr.html"> Административно-территориальное устройство</a></li>
+   <li><a href ="page_foto.html"> Фотогаллерея <span class="badge">7</span></a></li>
+  </ul>
+ </div>
+
+
+  <div class="col-md-7">
+  <h1>Административно-территориально устройство </h1>
+  <p class = "imgstyle"> <img src="image/4p2.jpg" width="550" height = "390" /></p>
+  <button class="btn btn-danger" id="btnShowTable">Показать численность населенных пунктов </button>
+      <table class="table" id="hiddenTable" style="display:none">
+        <tr>
+          <th>Населенный пункт</th>
+          <th>Численность</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>Саранск</td>
+          <td>37698</td>
+          <td><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span><span  onclick="remove(this);" class="glyphicon glyphicon-trash" aria-hidden="true"></span></td>
+        </tr>
+        <tr>
+          <td>Рузаевка</td>
+          <td>46064</td>
+      <td><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> <span onclick="remove(this);" class="glyphicon glyphicon-trash" aria-hidden="true"></span></td>
+        </tr>
+        <tr>
+          <td>Ковылкино</td>
+          <td>20387</td>
+      <td><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> <span onclick="remove(this);" class="glyphicon glyphicon-trash" aria-hidden="true"></span></td>
+        </tr>
+        <tr>
+          <tr>
+            <td>Комсомольский</td>
+            <td>12971</td>
+        <td><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> <span onclick="remove(this);" class="glyphicon glyphicon-trash" aria-hidden="true"></span></td>
+          </tr>
+          <td></td>
+          <td><button class="btn btn-danger" id="btnAdd">Add</button></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+
+    </div>
+
+
+  <div class="col-md-3">
+  <div class="panel panel-danger">
+  <div class="panel-heading">Новости</div>
+  <div class="panel-body">
+ <ul class="list-group">
+    <li class="list-group-item"><span class="label label-danger">4.10.16</span>Глава Мордовии Владимир Волков принял участие в церемонии встречи Курской Коренной иконы Божией Матери «Знамение»</li>
+    <li class="list-group-item"><span class="label label-danger">30.09.16</span>Глава Республики Владимир Волков избран председателем Попечительского совета Национального исследовательского Мордовского государственного университета им. Н.П.Огарева</li>
+    <li class="list-group-item"><span class="label label-danger">29.09.16</span>В Саранске прошла 1 сессия Государственного Собрания Республики Мордовия 6 созыва</li>
+    <li class="list-group-item"><span class="label label-danger">28.09.16</span>Глава Республики Владимир Волков принял участие в конференции Мордовского регионального отделения партии «Единая Россия»</li>
+    <li class="list-group-item"><span class="label label-danger">27.09.16</span>Владимир Волков: «РМ Рейл» нужно продолжить завоевание внешних рынков»</li>
+  </ul>
+  </div>
+</div>
+</div>
+</body>
+</html>

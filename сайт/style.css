@@ -1,0 +1,47 @@
+body
+{
+  font-size: 13;
+  font-family: Arial;
+}
+a
+{
+  color : black;
+}
+a:hover
+{
+  color :  #F33E42;
+}
+a:active
+{
+  color :  #F33E42;
+}
+.imgstyle
+{
+  text-align: center;
+}
+h1{
+  text-align: center;
+  color : #F33E42;
+}
+.col-md-7
+{
+  background-color: white;
+}
+.imgflag
+{
+  float:left;
+}
+.center
+{
+
+margin-left: 35%;
+margin-right: 35%;
+}
+#form-control
+{
+  width: 40px;
+}
+li:active
+{
+  background-color: #F33E42;
+}
